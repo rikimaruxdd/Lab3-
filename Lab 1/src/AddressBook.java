@@ -4,9 +4,7 @@ public class AddressBook {
     private BuddyInfo buddy;
     private ArrayList<BuddyInfo> buddies;
 
-    public static void main(){
-        System.out.println("hello buddy");
-    }
+
     public AddressBook() {
 
         this.buddies = new ArrayList<>();
