@@ -23,6 +23,9 @@ public class AddressBook {
         return null;
 
     }
+    public void printText(){
+        System.out.println("Lab 3 text for bracnh ");
+    }
 
     public static void main(String[] args) {
 
