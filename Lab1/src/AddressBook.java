@@ -32,6 +32,8 @@ public class AddressBook {
         System.out.println("Hello " + buddy.getName());
 
 
-
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy(buddy);
+        addressBook.removeBuddy(0);
     }
 }
